@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace ;
+}
+
+body{
+  background: white;
+}
+
+nav{
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid rgb(255, 0, 136);
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+nav a:hover{
+  color: rgb(220, 157, 212);
+}
+
+.home,
+.isi{
+  min-height: 100vh;
+  padding: 50px 60px;
+  border-bottom: 2px solid rgb(230, 193, 227);
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.foto{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid rgb(250, 200, 232);
+}
+
+.foto img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.judul h1{
+  font-size: 75px;
+  line-height: 1;
+  color: rgb(90, 90, 170);
+  font-family: Arial, sans-serif;
+}
+
+.isi h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: rgb(85, 20, 20);
+}
+
+.isi p{
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.form-data{
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+  border: 2px solid rgb(230, 193, 227);
+  border-radius: 15px;
+}
+
+.form-data label{
+  display: block;
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.form-data input,
+.form-data textarea,
+.form-data select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.radio-group,
+.checkbox-group{
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.radio-group label,
+.checkbox-group label{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.form-data button{
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(255, 0, 136);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.form-data button:hover{
+  background: rgb(220, 157, 212);
+}
+
+.judul{
+  margin-left: 40px;
+}
+
+.judul p{
+  margin-top: 18px;
+  font-size: 18px;
+  color: rgb(90, 90, 90);
+  line-height: 1.7;
+}
+
+.home{
+  gap: 60px;
+}
